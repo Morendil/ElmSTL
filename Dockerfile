@@ -1,5 +1,6 @@
 # To build: docker build --rm -t elm-server .
 # To run Elm: docker run -i -t -p 8000:8000 -v $(pwd):/source elm-server
+# To view: http://<dockerhost>:8000/STLDemo.elm
 FROM ubuntu:latest
 
 RUN apt-get update
