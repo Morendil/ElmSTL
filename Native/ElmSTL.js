@@ -53,8 +53,6 @@ Elm.Native.ElmSTL.make = function(elm) {
 
   var Signal = Elm.Signal.make(elm);
   var List = Elm.Native.List.make(elm);
-  var Array = Elm.Native.Array.make(elm);
-  var Utils = Elm.Native. Utils.make(elm);
 
   // setup logging
   function LOG(msg) {
